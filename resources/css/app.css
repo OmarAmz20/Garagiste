@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #1d2a47;
+    scrollbar-color: white;
+    scroll-behavior: smooth;
+}
+
+
+.deleteClient {
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #1d2a47;
+    animation: anime 0.5s;
+}
+
+.confirmDeleteVehicle {
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #1d2a47;
+    animation: anime 0.5s;
+}
+
+@keyframes display {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+#addclient {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    background-color: #1d2a47;
+}
+
+#modifyClient {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    background-color: #1d2a47;
+}
+
+#addVehicle,
+#modifyVehicle,
+#createRepair,
+#addSparePart,
+.deleteSparePart,#modifySparePart {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    background-color: #1d2a47;
+}
